@@ -28,3 +28,71 @@ img{
 .info-section ul {
     list-style: none;
 }
+.result-section {
+    background-color: #1e1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#result-container, .result-intro-text{
+    text-align: center;
+}
+
+.result-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.spotify-button, .result-button {
+    background-color: black;
+    color:#1ED760;
+    font-size: 1rem;
+
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+}
+
+.result-card {
+    background-color: #262626;
+    color: white;
+
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.result-intro-text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    background-color: #1E1E1E; /* Footer background same as sections */
+    padding: 20px;
+    border-top: 1px solid #282828; /* Subtle border */
+    margin-top: 40px;
+}
+
+.social-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: flex; /* Change element to flex box */
+    justify-content: center; /* Center social links */
+    gap: 30px; /* Spacing between links */
+    font-size: 0.9rem;
+}
+
+.social-links li a {
+    color: #B3B3B3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+    color: white; /* White on hover */
+}
